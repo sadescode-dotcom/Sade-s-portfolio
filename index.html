@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sade's Digital Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+
+  <div id="intro-splash-screen">
+    <div class="splash-inner-box">
+      <h1 class="welcome-text-glow">
+        <span>W</span>
+        <span>E</span>
+        <span>L</span>
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+      </h1>
+      <button id="splash-start-btn">START</button>
+    </div>
+  </div>
+
+  <canvas id="thrones-canvas"></canvas>
+
+  <div id="main-portfolio-wrapper" class="hidden-on-start">
+
+    <aside class="sidebar">
+      <div class="sidebar-top-branding">
+        <div class="house-crest-icon"><i class="bx bx-wind"></i></div>
+        <h2>Sade Malbons</h2>
+        <p class="sidebar-occupation-title">Network Engineer Student</p>
+      </div>
+
+      <div class="sidebar-video-stack">
+        <div class="sidebar-video-box">
+          <video autoplay loop muted playsinline class="sidebar-video">
+            <source src="fortnite.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="sidebar-video-box">
+          <video autoplay loop muted playsinline class="sidebar-video">
+            <source src="middle.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="sidebar-video-box">
+          <video autoplay loop muted playsinline class="sidebar-video">
+            <source src="volley.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="sidebar-socials-row">
+        <div class="sidebar-social-inline-item">
+          <a href="https://discord.com" target="_blank">
+            <img src="discord.png" alt="Discord" class="original-brand-logo">
+          </a>
+          <span class="social-username-popup">@straightup_curls</span>
+        </div>
+        <div class="sidebar-social-inline-item">
+          <a href="https://instagram.com" target="_blank">
+            <img src="social.png" alt="Instagram" class="original-brand-logo">
+          </a>
+          <span class="social-username-popup">@dae_malbons</span>
+        </div>
+        <div class="sidebar-social-inline-item">
+          <a href="https://facebook.com" target="_blank">
+            <img src="facebook (3).png" alt="Facebook" class="original-brand-logo">
+          </a>
+          <span class="social-username-popup">Sade Malbons</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      
+      
+      <header class="top-nav-container">
+        
+        
+        <button id="menu-toggle-btn"><i class="bx bx-menu"></i></button>
+
+        <div class="center-menu">
+          <a href="#home" class="nav-btn active">Home</a>
+          <a href="#about" class="nav-btn">About Me</a>
+          <a href="#skills" class="nav-btn">Skills</a>
+          <a href="#hobbies" class="nav-btn">Hobbies</a>
+        </div>
+
+
+        <div class="corner-contact">
+          <button class="contact-trigger-btn"><i class="bx bx-envelope"></i> Contact Me</button>
+          <div class="contact-dropdown-card">
+            <h3>Hit me up!</h3>
+            <p class="phone-number"><i class="bx bx-phone"></i> +597 8821785</p>
+            <p class="phone-number">
+              <i class="bx bx-envelope"></i> 
+              <a href="mailto:yourusername@gmail.com" class="dropdown-email">sadecmalbons@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </header>
+      
+      <section class="home" id="home">
+        <div class="hero-box">
+          <p class="hero-tagline">THE BEGINNING OF A STORY</p>
+          <h1 id="typing-heading">A LAPTOP TECHNICIAN WHO <span class="dynamic-text"></span><span class="blinking-cursor">|</span></h1>
+          <p class="hero-desc">for the best quality repairs and services.</p>
+          <a href="#about" class="btn">Explore My Journey →</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+
+        <div class="section-header">
+          <h2 class="section-title">ABOUT ME</h2>
+          <div class="thrones-divider">
+            <span class="line"></span>
+            <img src="aboutme1.jpeg" alt="Sade Logo" class="divider-logo">
+            <span class="line"></span>
+          </div>
+        </div>
+        <div class="card-grid">
+          <div class="thrones-card">
+            <div class="card-icon"><i class="bx bx-git-commit"></i></div>
+            <p>I'm a first-year Network Engineering student at the University of Unasat.
+               Before my journey in tech started, I was in law school, where I soon found out I had no passion or love for it.
+                Switching to engineering allowed me to find what i truly enjoy doing on the long run. 
+                Outside of my studies, I have a strong passion for gaming, especially Fortnite,
+                 and I also enjoy spending time with my friends. I come from a family of 7 siblings, and unfortunately i am the oldest.
+                 But i love every single one of my siblings and i am greatful to have them in my life.
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="section-header">
+          <h2 class="section-title">SKILLS</h2>
+          <div class="thrones-divider">
+            <span class="line"></span>
+            <img src="got khaleesi.jpg" alt="Khaleesi Logo" class="divider-logo">
+            <span class="line"></span>
+          </div>
+        </div>
+        
+        <div class="card-grid">
+          <div class="thrones-card skill-item section-dropdown">
+            <i class="bx bxl-html5"></i>
+            <h3>Customer Service <i class="bx bx-chevron-down card-arrow"></i></h3>
+            <div class="dropdown-story-box">
+              <p>Years of experience in customer service.I worked as an agent in a call center for 2 years.
+                Which is why i can confidently say that i have excellent communication skills,
+                 problem-solving abilities, and a strong commitment to customer satisfaction.
+                 I am adept at handling a wide range of customer inquiries, providing effective solutions, 
+                 and ensuring a positive customer experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="thrones-card skill-item section-dropdown">
+            <i class="bx bxl-css3"></i>
+            <h3>Technician<i class="bx bx-chevron-down card-arrow"></i></h3>
+            <div class="dropdown-story-box">
+              <p>At Smart Connexxionz i build up my career into a laptop technician.
+                I have experience in diagnosing and repairing hardware and software issues, 
+                replacing components, and providing technical support to customers. 
+                I am skilled in troubleshooting various laptop problems, including performance issues, 
+                virus removal, and hardware upgrades.
+                 My dedication to delivering high-quality repairs and excellent customer service has been a key aspect of my work at Smart Connexxionz.
+              </p>
+            </div>
+          </div>
+
+          <div class="thrones-card skill-item section-dropdown">
+            <i class="bx bxl-javascript"></i>
+            <h3>Accounting <i class="bx bx-chevron-down card-arrow"></i></h3>
+            <div class="dropdown-story-box">
+              <p>I am also experienced in accounting and financial management. After i graduated high school,
+                my mother had me working as an accountant for her business for 1.5 years.
+                During this time, I gained valuable experience in this field.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hobbies" id="hobbies">
+        <div class="section-header">
+          <h2 class="section-title">HOBBIES</h2>
+          <div class="thrones-divider">
+            <span class="line"></span>
+            <img src="hobbies.jpg" alt="hobbies Logo" class="divider-logo">
+            <span class="line"></span>
+          </div>
+        </div>
+        
+        <div class="card-grid">
+          <div class="thrones-card section-dropdown">
+            <div class="card-icon"><i class="bx bxs-moon"></i></div>
+            <h3>Gaming<i class="bx bx-chevron-down card-arrow"></i></h3>
+            <div class="dropdown-story-box">
+              <p>I love gaming, especially simulation games like GTA.
+                 Although Fortnite has been the most fun to play cause then i can play with my friends.</p>
+            </div>
+          </div>
+
+          <div class="thrones-card section-dropdown">
+            <div class="card-icon"><i class="bx bx-cog"></i></div>
+            <h3>Sport <i class="bx bx-chevron-down card-arrow"></i></h3>
+            <div class="dropdown-story-box">
+              <p>I am a professional volleyball player with experience in competitive play and team coordination.
+                My position on the field is an outside hitter, where I excel in attacking, blocking, and serving.
+                 I have a strong passion for the sport and am dedicated to continuous improvement and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="content-footer">
+        <p>WHERE THERE IS A WILL...THERE IS A WAY, KEEP CODING.</p>
+      </footer>
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
